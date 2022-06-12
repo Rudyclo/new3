@@ -1,0 +1,923 @@
+<!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <!--=============== FAVICON ===============-->
+        <link rel="shortcut icon" href="assets/img/favicon.png" type="image/x-icon">
+
+        <!--=============== BOXICONS ===============-->
+        <link href='https://unpkg.com/boxicons@2.1.2/css/boxicons.min.css' rel='stylesheet'>
+        
+        <!--=============== SWIPER CSS ===============-->
+        <link rel="stylesheet" href="assets/css/swiper-bundle.min.css">
+
+        <!--=============== CSS ===============-->
+        <link rel="stylesheet" href="assets/css/styles.css">
+
+        <title>Responsive real state website - Bedimcode</title>
+    </head>
+    <body>
+        <!--==================== HEADER ====================-->
+        <header class="header" id="header">
+            <nav class="nav container">
+                <a href="index.html" class="nav__logo">
+                    Crackers <i class='bx bxl-visual-studio'></i>
+                </a>
+
+                <div class="nav__menu">
+                    <ul class="nav__list">
+                        <li class="nav__item">
+                            <a href="#home" class="nav__link active-link">
+                                <i class='bx bx-home-alt-2' ></i>
+                                <span>Home</span>
+                            </a>
+                        </li>
+                        <li class="nav__item">
+                            <a href="index1.html" class="nav__link">
+                                <i class='bx bx-list-ul' ></i>
+                                <span>커리큘럼</span>
+                            </a>
+                        </li>
+                        <li class="nav__item">
+                            <a href="index2.html" class="nav__link">
+                                <i class='bx bx-building-house' ></i>
+                                <span>관련직업</span>
+                            </a>
+                        </li>
+                        <li class="nav__item">
+                            <a href="index3.html" class="nav__link">
+                                <span>관련사이트</span>
+                                <i class='bx bxs-file-html' ></i></i>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+
+                <!-- Theme change button -->
+                <i class='bx bx-moon change-theme' id="theme-button"></i>
+
+                <!--<a href="#" class="nav__button button">Subscribe</a>-->
+            </nav>
+        </header>
+
+        <!--==================== MAIN ====================-->
+        <main class="main">
+            <!--==================== HOME ====================-->
+            <section class="home section" id="home">
+                <div class="home__container container grid">
+                    <div class="home__data">
+                        <h1 class="home__title">
+                        정보보안 <br> 종합정보 <br> 사이트
+                        </h1>
+                        <p class="home__description">
+                            정보보안과 그 외 도움이 될만한 정보들을 모아보았습니다<br>
+                            이 곳에서 여러분들의 꿈의 한발짝 다가가기를 바라겠습니다.
+                           
+                        </p>
+    
+                        <form action="" class="home__search">
+                            
+                            <p class="home__search-input"><strong>소개 동영상</strong></p>
+                            <button class="button" onclick = "location.href = 'www.naver.com' ">
+                             Link1
+                            </button>
+                            <button class="button">
+                                 Link2
+                               </button>
+                      
+                        </form>
+    
+                        <div class="home__value">
+                            <div>
+                                <h1 class="home__value-number">
+                                    9K <span></span>
+                                </h1>
+                                <span class="home__value-description">
+                                    Premium <br> Product
+                                </span>
+                            </div>
+    
+                            <div>
+                                <h1 class="home__value-number">
+                                    2K <span>+</span>
+                                </h1>
+                                <span class="home__value-description">
+                                    Happy <br> Customer
+                                </span>
+                            </div>
+    
+                            <div>
+                                <h1 class="home__value-number">
+                                    28K <span>+</span>
+                                </h1>
+                                <span class="home__value-description">
+                                    Awards <br> Winning
+                                </span>
+                            </div>
+                        </div>
+                    </div>
+    
+                    <div class="home__images">
+                        <div class="home__orbe"></div>
+    
+                        <div class="home__img">
+                            <img src="assets/img/t1.jpg" alt="">
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!--==================== LOGOS ====================-->
+            <!--<section class="logos section">
+                <div class="logos__container container grid">
+                    <div class="logos__img">
+                        <img src="assets/img/logo1.png" alt="">
+                    </div>
+                    <div class="logos__img">
+                        <img src="assets/img/logo2.png" alt="">
+                    </div>
+                    <div class="logos__img">
+                        <img src="assets/img/logo3.png" alt="">
+                    </div>
+                    <div class="logos__img">
+                        <img src="assets/img/logo4.png" alt="">
+                    </div>
+                </div>
+            </section>-->
+
+            <!--==================== POPULAR ====================-->
+            <section class="section" id="popular">
+                <div class="container">
+                    <span class="section__subtitle"></span>
+                    <h2 class="section__title">
+                        팀원 소개<span>.</span>
+                    </h2>
+                    <div class="popular__container grid swiper">
+                        <div class="swiper-wrapper">
+                            <article class="popular__card swiper-slide">
+                                <img src="assets/img/cat1.png" alt="" class="popular__img">
+    
+                                <div class="popular__data">
+                                    <a href="https://clinquant-jalebi-be3b06.netlify.app/"><h2 class="popular__price">
+                                        <span>조원<br></span>차윤지
+                                    </h2>
+                                </a>
+                                    <h3 class="popular__title">
+                                        92113877
+                                    </h3>
+                                    <p class="popular__description">
+                                        항상 꿈꾸고 노력하며 성장하는 사람이 되고싶습니다.
+                                    </p>
+                                </div>
+                            </article>
+
+                            <article class="popular__card swiper-slide">
+                                <img src="assets/img/cat3.jpg" alt="" class="popular__img">
+    
+                                <div class="popular__data">
+                                    <a href="https://clinquant-jalebi-be3b06.netlify.app/"><h2 class="popular__price">
+                                        <span>조원<br></span>이창민
+                                    </h2>
+                                </a>
+                                    <h3 class="popular__title">
+                                      92113786
+                                    </h3>
+                                    <p class="popular__description">
+                                        완벽한 페이지를 만들기 위해서 노력중입니다. 생각보다 쉽지 않네요
+                                    </p>
+                                </div>
+                            </article>
+    
+                            <article class="popular__card swiper-slide">
+                                <img src="assets/img/dog.png" alt="" class="popular__img">
+    
+                                <div class="popular__data">
+                                    <a href="https://clinquant-jalebi-be3b06.netlify.app/"><h2 class="popular__price">
+                                        <span>조원<br></span>임어진
+                                    </h2>
+                                </a>
+                                    <h3 class="popular__title">
+                                        92105791
+                                    </h3>
+                                    <p class="popular__description">
+                                        시스템보안,클라우드보안에 관심있습니다.
+                                    </p>
+                                </div>
+                            </article>
+    
+                            
+
+                            <article class="popular__card swiper-slide">
+                                <img src="assets/img/cat.jpg" alt="" class="popular__img">
+                                <div class="popular__data">
+                                    <a href="https://clinquant-jalebi-be3b06.netlify.app/"><h2 class="popular__price">
+                                        <span>조장<br></span>하승범
+                                    </h2>
+                                </a>
+                                    <h3 class="popular__title">
+                                        91813248
+                                    </h3>
+                                    <p class="popular__description">
+                                        모의해킹 공부 중입니다
+                                    </p>
+                                </div>
+                            </article>
+                        </div>
+
+                        <div class="swiper-button-next">
+                            <i class='bx bx-chevron-right' ></i>
+                        </div>
+                        <div class="swiper-button-prev">
+                            <i class='bx bx-chevron-left'></i>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!--==================== VALUE ====================-->
+            <section class="value section" id="value">
+                <div class="value__container container grid">
+                    <div class="value__images">
+                        <div class="value__orbe"></div>
+    
+                        <div class="value__img">
+                            <img src="assets/img/t2.jpg" alt="">
+                        </div>
+                    </div>
+
+                    <div class="value__content">
+                        <div class="value__data">
+                            <span class="section__subtitle">관련 직업</span>
+                            <h2 class="section__title">
+                               시스템 엔지니어<span>.</span>
+                            </h2>
+                            <p class="value__description">
+                                4차산업 시대에 맞게 컴퓨터 어쩔티비 저쩔티비
+                                
+                            </p>
+                        </div>
+
+                        <div class="value__accordion">
+                            <div class="value__accordion-item">
+                                <header class="value__accordion-header">
+                                    <i class='bx bx-male value__accordion-icon'></i>
+                                    <h3 class="value__accordion-title">
+                                     직업소개
+                                    </h3>
+                                    <div class="value__accordion-arrow">
+                                        <i class='bx bxs-down-arrow'></i>
+                                    </div>
+                                </header>
+
+                                <div class="value__accordion-content">
+                                    <p class="value__accordion-description">
+                                        리눅스와 같은 운영체제를 기반으로 서버를 구축하고 서버 시스템의 상태를 최적으로
+유지,관리하는 직업 서버의 유지와 보수 또 사고나 오류 장애가 발생하거나 발생을
+대비하기 위해 응용프로그램 관리 시스템 자료의 백업, 시스템보안관리등 서버의 오류,
+장애가 발생했을 경우 손실을 최소로 막고 서버의 손실을 복구하는 직업
+서버실의 온도와 습도 등의 설비또한 관리
+                                    </p>
+                                </div>
+                            </div>
+
+                            <div class="value__accordion-item">
+                                <header class="value__accordion-header">
+                                    <i class='bx bxs-credit-card  value__accordion-icon'></i>
+                                    <h3 class="value__accordion-title">
+                                        관련자격증
+                                    </h3>
+                                    <div class="value__accordion-arrow">
+                                        <i class='bx bxs-down-arrow'></i>
+                                    </div>
+                                </header>
+
+                                <div class="value__accordion-content">
+                                    <p class="value__accordion-description">
+                                        1. 리눅스 마스터 2. 정보처리기사 3.네트워크 관리사 4. MCP 5. LPIC 6. CCNA
+                                    </p>
+                                </div>
+                            </div>
+
+                            <div class="value__accordion-item">
+                                <header class="value__accordion-header">
+                                    <i class='bx bxs-buildings value__accordion-icon' ></i>
+                                    <h3 class="value__accordion-title">
+                                        관련회사
+                                    </h3>
+                                    <div class="value__accordion-arrow">
+                                        <i class='bx bxs-down-arrow'></i>
+                                    </div>
+                                </header>
+
+                                <div class="value__accordion-content">
+                                    <p class="value__accordion-description">
+                                        SK네트웍스 서비스(주), SK쉴더스 주식회사, 하나펀드서비스, 정보통신기획평가원,
+                                        (주)엔아이스틸, 제이앤지시스템, 현대자동차(주) 등등
+                                    </p>
+                                </div>
+                            </div>
+
+                            <div class="value__accordion-item">
+                                <header class="value__accordion-header">
+                                    <i class='bx bxs-checkbox-checked value__accordion-icon'></i>
+                                    <h3 class="value__accordion-title">
+                                        특징
+                                    </h3>
+                                    <div class="value__accordion-arrow">
+                                        <i class='bx bxs-down-arrow'></i>
+                                    </div>
+                                </header>
+
+                                <div class="value__accordion-content">
+                                    <p class="value__accordion-description">
+                                        앞으로도 계속 기업의 서버 이용은 늘어날것이기에 수요가 계속 늘어나는 추세이며 정보보안전문가와 함께 나라에서 육성을 장려하는 IT직종 중 하나이다
+허나 다른 IT분야에 비해 연봉이 평균적으로 더 적은 것에 비해 서버는 24시간 운영하기에 야근이 많고 기업 자체에 서버실이 있는 경우보다 대여를 하는 경우가 더 많다
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <!-- 정보보안 전문가-->
+            <section class="value section" id="value">
+                <div class="value__container container grid">
+                    <div class="value__images">
+                        <div class="value__orbe"></div>
+    
+                        <div class="value__img">
+                            <img src="assets/img/t2.jpg" alt="">
+                        </div>
+                    </div>
+
+                    <div class="value__content">
+                        <div class="value__data">
+                            <span class="section__subtitle">관련 직업</span>
+                            <h2 class="section__title">
+                               정보보안 전문가<span>.</span>
+                            </h2>
+                            <p class="value__description">
+                                4차산업 시대에 맞게 컴퓨터 어쩔티비 저쩔티비
+                                
+                            </p>
+                        </div>
+
+                        <div class="value__accordion">
+                            <div class="value__accordion-item">
+                                <header class="value__accordion-header">
+                                    <i class='bx bxs-shield-x value__accordion-icon'></i>
+                                    <h3 class="value__accordion-title">
+                                     직업소개
+                                    </h3>
+                                    <div class="value__accordion-arrow">
+                                        <i class='bx bxs-down-arrow'></i>
+                                    </div>
+                                </header>
+
+                                <div class="value__accordion-content">
+                                    <p class="value__accordion-description">
+                                        여러가지 포괄적인 의미에서 정보 보안 전문가로써 각각 분야마다
+하는 업무도 이름도 다르다 모의로 보안성을 실험하기 위해서 공격하고 대책을
+제안하는 모의해킹 전문가, 비슷한 성격의 보안 솔루션 개발자
+악성코드를 분석하고 진단 방법을 만드는 악성 코드 분석가 등등 여러 업종으로 나뉜다
+                                    </p>
+                                </div>
+                            </div>
+
+                            <div class="value__accordion-item">
+                                <header class="value__accordion-header">
+                                    <i class='bx bxs-x-square value__accordion-icon'></i>
+                                    <h3 class="value__accordion-title">
+                                        관련자격증
+                                    </h3>
+                                    <div class="value__accordion-arrow">
+                                        <i class='bx bxs-down-arrow'></i>
+                                    </div>
+                                </header>
+
+                                <div class="value__accordion-content">
+                                    <p class="value__accordion-description">
+                                        1. 정보보안기사 2. 정보처리기사 3. CISSA 4. CISSP 5. OCA 6. CCNA 7. CCNP
+                                    </p>
+                                </div>
+                            </div>
+
+                            <div class="value__accordion-item">
+                                <header class="value__accordion-header">
+                                    <i class='bx bxs-bar-chart-square value__accordion-icon' ></i>
+                                    <h3 class="value__accordion-title">
+                                        관련회사
+                                    </h3>
+                                    <div class="value__accordion-arrow">
+                                        <i class='bx bxs-down-arrow'></i>
+                                    </div>
+                                </header>
+
+                                <div class="value__accordion-content">
+                                    <p class="value__accordion-description">
+                                        SK네트웍스 서비스(주), SK쉴더스 주식회사, 하나펀드서비스, 정보통신기획평가원,
+(주)엔아이스틸, 제이앤지시스템, 현대자동차(주), KB데이타시스템, 코스메카코리아,
+한국스마트에너지협회
+                                    </p>
+                                </div>
+                            </div>
+
+                            <div class="value__accordion-item">
+                                <header class="value__accordion-header">
+                                    <i class='bx bxs-checkbox-checked value__accordion-icon'></i>
+                                    <h3 class="value__accordion-title">
+                                        특징
+                                    </h3>
+                                    <div class="value__accordion-arrow">
+                                        <i class='bx bxs-down-arrow'></i>
+                                    </div>
+                                </header>
+
+                                <div class="value__accordion-content">
+                                    <p class="value__accordion-description">
+                                        현재 국가에서 지원금을 줘가면서까지 육성하려고 하는 직종으로써 희소성과 업무의
+                                        중요도의 조명받고있는 직종이지만 그만큼 배워야 하는 양이나 실력이 중요하며
+                                        그만큼 돌아오는 연봉, 대우가 다른 IT업종에 비해 크다
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+<!-- 컨설팅-->
+<section class="value section" id="value">
+    <div class="value__container container grid">
+        <div class="value__images">
+            <div class="value__orbe"></div>
+
+            <div class="value__img">
+                <img src="assets/img/t2.jpg" alt="">
+            </div>
+        </div>
+
+        <div class="value__content">
+            <div class="value__data">
+                <span class="section__subtitle">관련 직업</span>
+                <h2 class="section__title">
+                   컨설팅<span>.</span>
+                </h2>
+                <p class="value__description">
+                    4차산업 시대에 맞게 컴퓨터 어쩔티비 저쩔티비
+                    
+                </p>
+            </div>
+
+            <div class="value__accordion">
+                <div class="value__accordion-item">
+                    <header class="value__accordion-header">
+                        <i class='bx bxs-shield-x value__accordion-icon'></i>
+                        <h3 class="value__accordion-title">
+                         직업소개
+                        </h3>
+                        <div class="value__accordion-arrow">
+                            <i class='bx bxs-down-arrow'></i>
+                        </div>
+                    </header>
+
+                    <div class="value__accordion-content">
+                        <p class="value__accordion-description">
+                            여러가지 포괄적인 의미에서 정보 보안 전문가로써 각각 분야마다
+하는 업무도 이름도 다르다 모의로 보안성을 실험하기 위해서 공격하고 대책을
+제안하는 모의해킹 전문가, 비슷한 성격의 보안 솔루션 개발자
+악성코드를 분석하고 진단 방법을 만드는 악성 코드 분석가 등등 여러 업종으로 나뉜다
+                        </p>
+                    </div>
+                </div>
+
+                <div class="value__accordion-item">
+                    <header class="value__accordion-header">
+                        <i class='bx bxs-x-square value__accordion-icon'></i>
+                        <h3 class="value__accordion-title">
+                            관련자격증
+                        </h3>
+                        <div class="value__accordion-arrow">
+                            <i class='bx bxs-down-arrow'></i>
+                        </div>
+                    </header>
+
+                    <div class="value__accordion-content">
+                        <p class="value__accordion-description">
+                            1. 정보보안기사 2. LPIC 3. MCP 4. MCSA 5. MCSE 6. CCNA 7. CCNP 8.CCIE
+                            9. OCAJP 10. OCPJP
+                            
+                            
+                        </p>
+                    </div>
+                </div>
+
+                <div class="value__accordion-item">
+                    <header class="value__accordion-header">
+                        <i class='bx bxs-bar-chart-square value__accordion-icon' ></i>
+                        <h3 class="value__accordion-title">
+                            관련회사
+                        </h3>
+                        <div class="value__accordion-arrow">
+                            <i class='bx bxs-down-arrow'></i>
+                        </div>
+                    </header>
+
+                    <div class="value__accordion-content">
+                        <p class="value__accordion-description">
+                            안랩, #이글루시큐리티, #윈스, #시큐아이, #파이오링크, #이니텍, #피앤피시큐어,
+#지란지교시큐리티+소프트, #싸이버원, #펜타시큐리티시스템, #파수닷컴, #소만사,
+#드림시큐리티, #씨에이에스, #라온시큐어, #에스지에이, #이스트소프트, #마크애니,
+#이스트시큐리티, #잉카인터넷, #지니언스, #소프트캠프, #시큐브, #케이사인,
+#엑스게이트, 바이오닉스진(닉스테크), 시큐어원, 넷앤드휴먼인터페이스, 바넷정보기술
+
+
+                        </p>
+                    </div>
+                </div>
+
+                <div class="value__accordion-item">
+                    <header class="value__accordion-header">
+                        <i class='bx bxs-checkbox-checked value__accordion-icon'></i>
+                        <h3 class="value__accordion-title">
+                            특징
+                        </h3>
+                        <div class="value__accordion-arrow">
+                            <i class='bx bxs-down-arrow'></i>
+                        </div>
+                    </header>
+
+                    <div class="value__accordion-content">
+                        <p class="value__accordion-description">
+                            컨설팅의 경우 보안관제에서 넘어가는 사람들이 많고 요즘 같은 경우에는
+중앙 통제 시스템을 이용한 컨설팅 프로그램 개발 또한 신경쓰고있다 코로나이후
+대부분의 업무가 회사가 아닌 집에서 이루어지는 것으로 인해 보안 상태를 검사
+받기 위한 또 하나의 방법으로써 등장하였다 즉 옛날처럼 컨설팅만 전부는 아니다
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- 정보보안 전문가-->
+<section class="value section" id="value">
+    <div class="value__container container grid">
+        <div class="value__images">
+            <div class="value__orbe"></div>
+
+            <div class="value__img">
+                <img src="assets/img/t2.jpg" alt="">
+            </div>
+        </div>
+
+        <div class="value__content">
+            <div class="value__data">
+                <span class="section__subtitle">관련 직업</span>
+                <h2 class="section__title">
+                   디지털포렌식<span>.</span>
+                </h2>
+                <p class="value__description">
+                    4차산업 시대에 맞게 컴퓨터 어쩔티비 저쩔티비
+                    
+                </p>
+            </div>
+
+            <div class="value__accordion">
+                <div class="value__accordion-item">
+                    <header class="value__accordion-header">
+                        <i class='bx bxs-shield-x value__accordion-icon'></i>
+                        <h3 class="value__accordion-title">
+                         직업소개
+                        </h3>
+                        <div class="value__accordion-arrow">
+                            <i class='bx bxs-down-arrow'></i>
+                        </div>
+                    </header>
+
+                    <div class="value__accordion-content">
+                        <p class="value__accordion-description">
+                            크게 증거물을 복제해 수집하는 일과 범죄혐의를 입증하고 분석하는 일 두 가지로 나뉜다.
+증거수집 대상은 PC부터 스마트폰, 스마트워치 등 스마트기기, 블랙박스 최근에는
+클라우드까지 다양하다. 여기에서 모은 데이터를 적법하고 빠르게 수집해서 퍼즐을
+맞추는 게 디지털포렌식 전문가의 역할이다
+                        </p>
+                    </div>
+                </div>
+
+                <div class="value__accordion-item">
+                    <header class="value__accordion-header">
+                        <i class='bx bxs-x-square value__accordion-icon'></i>
+                        <h3 class="value__accordion-title">
+                            관련자격증
+                        </h3>
+                        <div class="value__accordion-arrow">
+                            <i class='bx bxs-down-arrow'></i>
+                        </div>
+                    </header>
+
+                    <div class="value__accordion-content">
+                        <p class="value__accordion-description">
+                            1. 디지털 포렌식 전문가 2. ACE 3. ENCE 4. CCFE 5. GIAC 6. CCE 7. CHFI
+                        </p>
+                    </div>
+                </div>
+
+                <div class="value__accordion-item">
+                    <header class="value__accordion-header">
+                        <i class='bx bxs-bar-chart-square value__accordion-icon' ></i>
+                        <h3 class="value__accordion-title">
+                            관련회사
+                        </h3>
+                        <div class="value__accordion-arrow">
+                            <i class='bx bxs-down-arrow'></i>
+                        </div>
+                    </header>
+
+                    <div class="value__accordion-content">
+                        <p class="value__accordion-description">
+                            한국디지털포렌식센터주식회사, k포렌식, 명디지털포렌식센터, 사이버수사대
+                        </p>
+                    </div>
+                </div>
+
+                <div class="value__accordion-item">
+                    <header class="value__accordion-header">
+                        <i class='bx bxs-checkbox-checked value__accordion-icon'></i>
+                        <h3 class="value__accordion-title">
+                            특징
+                        </h3>
+                        <div class="value__accordion-arrow">
+                            <i class='bx bxs-down-arrow'></i>
+                        </div>
+                    </header>
+
+                    <div class="value__accordion-content">
+                        <p class="value__accordion-description">
+                            재미있는 사실이 있다면 결국에는 '조사' 이기에 해양학 전공자 중 합격자가 있었는데 6개월 후 IT를 독학햇다
+즉 기본적이 IT능력도 필요하지만 결국에 필요한 것은 필요와 관심에 의한 선택이 더 중요하다는 것이다
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+            <!--==================== CONTACT ====================-->
+            <!--<section class="contact section" id="contact">
+                <div class="contact__container container grid">
+                    <div class="contact__images">
+                        <div class="contact__orbe"></div>
+    
+                        <div class="contact__img">
+                            <img src="assets/img/contact.png" alt="">
+                        </div>
+                    </div>
+
+                    <div class="contact__content">
+                        <div class="contact__data">
+                            <span class="section__subtitle">Contact Us</span>
+                            <h2 class="section__title">
+                                Easy to Contact us<span>.</span>
+                            </h2>
+                            <p class="contact__description">
+                                Is there a problem finding your dream home? Need a 
+                                guide in buying first home? or need a consultation 
+                                on residential issues? just contact us.
+                            </p>
+                        </div>
+                    
+                        <div class="contact__card">
+                            <div class="contact__card-box">
+                                <div class="contact__card-info">
+                                    <i class='bx bxs-color' ></i>
+                                    <div>
+                                        <h3 class="contact__card-title">
+                                            Call
+                                        </h3>
+                                        <p class="contact__card-description">
+                                            022.321.165.19
+                                        </p>
+                                    </div>
+                                </div>
+                                <button class="button contact__card-button">
+                                    Call Now
+                                </button>
+                            </div>
+
+                            <div class="contact__card-box">
+                                <div class="contact__card-info">
+                                    <i class='bx bxs-message-rounded-dots' ></i>
+                                    
+                                    <div>
+                                        <h3 class="contact__card-title">
+                                            Chat
+                                        </h3>
+                                        <p class="contact__card-description">
+                                            022.321.165.19
+                                        </p>
+                                    </div>
+                                </div>
+                                <button class="button contact__card-button">
+                                    Chat Now
+                                </button>
+                            </div>
+
+                            <div class="contact__card-box">
+                                <div class="contact__card-info">
+                                    <i class='bx bxs-video' ></i>
+                                    
+                                    <div>
+                                        <h3 class="contact__card-title">
+                                            Video Call
+                                        </h3>
+                                        <p class="contact__card-description">
+                                            022.321.165.19
+                                        </p>
+                                    </div>
+                                </div>
+                                <button class="button contact__card-button">
+                                    Video Call Now
+                                </button>
+                            </div>
+
+                            <div class="contact__card-box">
+                                <div class="contact__card-info">
+                                    <i class='bx bxs-envelope'></i>
+                                    
+                                    <div>
+                                        <h3 class="contact__card-title">
+                                            Message
+                                        </h3>
+                                        <p class="contact__card-description">
+                                            022.321.165.19
+                                        </p>
+                                    </div>
+                                </div>
+                                <button class="button contact__card-button">
+                                    Message Now
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+              
+                
+            </section>
+        -->
+            <!--==================== SUBSCRIBE ====================-->
+            <section class="subscribe section"id="adv">
+                <div class="subscribe__container container">
+                    <h1 class="subscribe__title">
+                        건의 사항
+                    </h1>
+                    <p class="subscribe__description">
+                        필요하신 정보 혹은 잘못된 내용들을 적어서 보내주시면<br>
+                        빠른 수정과 추가를 해드릴수있습니다.
+                    </p>
+                    <div id="advice"><input type="text"name = 'advice' size="44" placeholder="내용" onfucus=this  style="border-radius:7px; font-size: 20px;height: 50px;"></div><br>
+                    <button  class="button subscribe__button" onclick="openPopup()">
+
+                        Get Started</button>
+<div class="popup" id="popup">
+<img src="assets/img/tick.png" alt="">
+<h2>Thnak you!</h2>
+<p>Your details has been successfully submited. Thanks!</p>
+<button type="button"onclick="closePopup()">OK</button>
+</div>    
+                    
+                </div>
+            </section>
+        </main>
+
+        <!--==================== FOOTER ====================-->
+        <footer class="footer section">
+            <div class="footer__container container grid">
+                <div>
+                    <a href="" class="footer__logo">
+                        Crackers <i class='bx bxl-visual-studio'></i>
+                    </a>
+                    <p class="footer__description">
+                       저희는 앞으로도 여러분께 <br> 
+                        다양한 정보를 드릴수 있도록 노력하겠습니다.
+                    </p>
+                </div>
+
+                <div class="footer__content">
+                    <div>
+                        <h3 class="footer__title">
+                            Page
+                        </h3>
+
+                        <ul class="footer__links">
+                            <li>
+                                <a href="#popular" class="footer__link">팀원 소개</a>
+                            </li>
+                            <li>
+                                <a href="#value" class="footer__link">간단한 소개</a>
+                            </li>
+                            <li>
+                                <a href="#adv" class="footer__link">건의 사항</a>
+                            </li>
+                        </ul>
+                    </div>
+
+                    <div>
+                        <h3 class="footer__title">
+                            Team
+                        </h3>
+
+                        <ul class="footer__links">
+                            <li>
+                                <a href="#" class="footer__link">하승범</a>
+                            </li>
+                            <li>
+                                <a href="#" class="footer__link">차윤지</a>
+                            </li>
+                            <li>
+                                <a href="#" class="footer__link">이창민</a>
+                            </li>
+                            <li>
+                                <a href="#" class="footer__link">임어진</a>
+                            </li>
+                        </ul>
+                    </div>
+                    
+                    <div>
+                        <h3 class="footer__title">
+                            사용 언어
+                        </h3>
+
+                        <ul class="footer__links">
+                            <li>
+                                <a href="#" class="footer__link">HTML</a>
+                            </li>
+                            <li>
+                                <a href="#" class="footer__link">CSS</a>
+                            </li>
+                            <li>
+                                <a href="#" class="footer__link">JS</a>
+                            </li>
+                        </ul>
+                    </div>
+
+                    <div>
+                        <h3 class="footer__title">
+                            팀 SNS
+                        </h3>
+
+                        <ul class="footer__social">
+                            <a href="https://www.facebook.com/" target="_blank" class="footer__social-link">
+                                <i class='bx bxl-facebook-circle' ></i>
+                            </a>
+                            <a href="https://www.instagram.com/" target="_blank" class="footer__social-link">
+                                <i class='bx bxl-instagram-alt' ></i>
+                            </a>
+                            <a href="https://www.pinterest.com/" target="_blank" class="footer__social-link">
+                                <i class='bx bxl-pinterest' ></i>
+                            </a>    
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+            <div class="footer__info container">
+                <span class="footer__copy">
+                    &#169; Bedimcode. All rigths reserved
+                </span>
+
+                <div class="footer__privacy">
+                    <a href="#">Terms & Agreements</a>
+                    <a href="#">Privacy Policy</a>
+                </div>
+            </div>
+        </footer>
+
+
+        <!--========== SCROLL UP ==========-->
+        <a href="#" class="scrollup" id="scroll-up">
+            <i class='bx bx-chevrons-up'></i>
+        </a>
+
+        <!--=============== SCROLLREVEAL ===============-->
+        <script src="assets/js/scrollreveal.min.js"></script>
+
+        <!--=============== SWIPER JS ===============-->
+        <script src="assets/js/swiper-bundle.min.js"></script>
+
+        <!--=============== MAIN JS ===============-->
+        <script src="assets/js/main.js"></script>
+        <script>
+            let popup = document.getElementById("popup");
+        
+            function openPopup(){
+                popup.classList.add("open-popup");
+            }
+            function closePopup(){
+                popup.classList.remove("open-popup");
+            }
+        </script>
+    </body>
+</html>
